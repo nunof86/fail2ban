@@ -5,6 +5,8 @@
 1. Replace the <mark style="color:red;">`hosts:`</mark> option to <mark style="color:red;">**localhost**</mark> or other <mark style="color:red;">**host**</mark> of your choice.
 
 ```yaml
+---
+
 - name: Fail2ban Installation and Configuration
   hosts: localhost
 
