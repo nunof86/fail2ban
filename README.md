@@ -43,7 +43,7 @@ bantime  = 60m
 ## Changing the Maxretry in the jail.conf Configuration File
 
 1. Edit the file with <mark style="color:red;">`nano /etc/fail2ban/jail.conf`</mark>.
-2. Change the <mark style="color:red;">`maxretry = 5`</mark> to <mark style="color:red;">`maxretry = 5`</mark>.
+2. Change the <mark style="color:red;">`maxretry = 5`</mark> to <mark style="color:red;">`maxretry = 3`</mark>.
 
 ## Enable and Start the Fail2ban service
 
